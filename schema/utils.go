@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/utils"
 )
 
 func ParseTagSetting(str string, sep string) map[string]string {

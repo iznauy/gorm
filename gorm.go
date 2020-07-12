@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/logger"
+	"github.com/iznauy/gorm/schema"
 )
 
 // Config GORM config

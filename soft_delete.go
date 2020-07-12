@@ -5,8 +5,8 @@ import (
 	"database/sql/driver"
 	"reflect"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/schema"
 )
 
 type DeletedAt sql.NullTime

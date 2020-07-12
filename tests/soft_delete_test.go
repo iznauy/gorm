@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/iznauy/gorm"
+	. "github.com/iznauy/gorm/utils/tests"
 )
 
 func TestSoftDelete(t *testing.T) {

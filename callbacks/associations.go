@@ -3,8 +3,8 @@ package callbacks
 import (
 	"reflect"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
+	"github.com/iznauy/gorm"
+	"github.com/iznauy/gorm/clause"
 )
 
 func SaveBeforeAssociations(db *gorm.DB) {

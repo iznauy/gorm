@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/iznauy/gorm"
 )
 
 func toJSONString(v interface{}) []byte {

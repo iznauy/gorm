@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"gorm.io/driver/mysql"
-	"gorm.io/driver/postgres"
-	"gorm.io/driver/sqlite"
-	"gorm.io/driver/sqlserver"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/iznauy/driver/mysql"
+	"github.com/iznauy/driver/postgres"
+	"github.com/iznauy/driver/sqlite"
+	"github.com/iznauy/driver/sqlserver"
+	"github.com/iznauy/gorm"
+	"github.com/iznauy/gorm/logger"
+	. "github.com/iznauy/gorm/utils/tests"
 )
 
 var DB *gorm.DB

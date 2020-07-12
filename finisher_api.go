@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/utils"
 )
 
 // Create insert the value into database
@@ -218,7 +218,7 @@ func (db *DB) FirstOrCreate(dest interface{}, conds ...interface{}) (tx *DB) {
 	return db
 }
 
-// Update update attributes with callbacks, refer: https://gorm.io/docs/update.html#Update-Changed-Fields
+// Update update attributes with callbacks, refer: https://github.com/iznauy/docs/update.html#Update-Changed-Fields
 func (db *DB) Update(column string, value interface{}) (tx *DB) {
 	tx = db.getInstance()
 	tx.Statement.Dest = map[string]interface{}{column: value}
@@ -226,7 +226,7 @@ func (db *DB) Update(column string, value interface{}) (tx *DB) {
 	return
 }
 
-// Updates update attributes with callbacks, refer: https://gorm.io/docs/update.html#Update-Changed-Fields
+// Updates update attributes with callbacks, refer: https://github.com/iznauy/docs/update.html#Update-Changed-Fields
 func (db *DB) Updates(values interface{}) (tx *DB) {
 	tx = db.getInstance()
 	tx.Statement.Dest = values

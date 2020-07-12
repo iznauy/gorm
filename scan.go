@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm/schema"
+	"github.com/iznauy/gorm/schema"
 )
 
 func Scan(rows *sql.Rows, db *DB, initialized bool) {

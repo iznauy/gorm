@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"sync"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/logger"
 )
 
 // ErrUnsupportedDataType unsupported data type

@@ -4,10 +4,10 @@ import (
 	"sync"
 	"testing"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils/tests"
+	"github.com/iznauy/gorm"
+	"github.com/iznauy/gorm/clause"
+	"github.com/iznauy/gorm/schema"
+	"github.com/iznauy/gorm/utils/tests"
 )
 
 func BenchmarkSelect(b *testing.B) {

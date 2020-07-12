@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"gorm.io/gorm/utils"
+	"github.com/iznauy/gorm/utils"
 )
 
 // Colors

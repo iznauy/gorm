@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/iznauy/gorm/clause"
 	"github.com/jinzhu/inflection"
-	"gorm.io/gorm/clause"
 )
 
 // RelationshipType relationship type

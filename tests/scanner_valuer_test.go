@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/iznauy/gorm"
+	. "github.com/iznauy/gorm/utils/tests"
 )
 
 func TestScannerValuer(t *testing.T) {

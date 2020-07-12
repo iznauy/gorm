@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/iznauy/gorm"
+	"github.com/iznauy/gorm/clause"
+	. "github.com/iznauy/gorm/utils/tests"
 	"github.com/jinzhu/now"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	. "gorm.io/gorm/utils/tests"
 )
 
 func TestCreate(t *testing.T) {
